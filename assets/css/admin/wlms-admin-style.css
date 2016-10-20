@@ -1,0 +1,560 @@
+/*----------------------------------------- admin----------------------------------------------------*/
+.wlms_search_option,.wlms_table_pagination
+{
+  display: inline-block;
+}
+
+.wlms_table_pagination
+{
+  text-align: left;
+  width: 37.5%;
+}
+.wlms_update_icon_from_list
+{
+    width:16px;
+    height:16px;
+    background-image:url(../../images/Deep_Edit.png);
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+.wlms_delete_icon_from_list
+{ 
+    width:16px;
+    height:16px;
+    background-image:url(../../images/delete.gif);
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+.wlms_list_top
+{
+    width:100%;
+    margin-top:20px;
+}
+.wlms_list_top .wlms_search_option
+{
+    text-align:right;
+    width:62%;
+}
+.clear_both
+{
+    clear:both; 
+}
+#memberTable
+{
+    margin-top:20px;
+}
+.wlms_details_box_main
+{
+    width:100%;
+    border:1px solid #cccccc;
+}
+.wlms_box_header
+{
+    background:#FFFFFF;
+    padding:12px 0px 12px 10px;
+    border-bottom: 1px solid #cccccc;
+}
+.wlms_box_header span
+{
+    color:#666666;
+    font-weight: bold;
+    font-size: 1.15em;
+}
+.wlms_box_content
+{
+    background:#FFFFFF;
+    padding: 10px;
+}
+.wlms_box_content table
+{
+    width:100%;
+}
+.wlms_box_content table th
+{
+    text-align:left;
+    text-transform:uppercase;
+    padding:8px 0px 8px 0px;
+    font-size: .85em;
+    color: #666666;
+}
+.wlms-regular-select,.wlms-regular-text
+{
+    width:20em;
+}
+.wlms_box_content table td
+{
+    text-align:center;
+    padding:8px 0px;
+}
+#member_form label.error, .output {color:#FB3A3A;}
+#books_form label.error, .output {color:#FB3A3A;}
+#bulk_book_form label.error, .output {color:#FB3A3A;}
+#borrow_form label.error, .output {color:#FB3A3A;}
+#message_form label.error, .output {color:#FB3A3A;}
+#book_categories_form label.error, .output {color:#FB3A3A;}
+#member_issues_form label.error, .output {color:#FB3A3A;}
+.wlms_list_btn
+{
+    display:inline-block;
+    margin-right: 5px;
+}
+.wlms_delete_popup_main
+{
+    width:500px;
+    height:200px;
+    background-color: #FFFFFF;
+    position:fixed;
+    z-index:999999;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -250px;
+    display:none;
+}
+.wlms_delete_popup_header_main
+{
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+    height: 30px;
+    text-align: center;
+}
+.wlms_delete_popup_header
+{
+    display:inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.wlms_delete_popup_close_icon
+{
+    display: inline-block;
+    float: right;
+    padding: 5px 15px 0 0;
+}
+.wlms_delete_popup_close_icon button
+{
+    color: #787878 !important;
+    line-height: 1 !important;
+    opacity: 0.7 !important;
+    padding: 0 5px !important;
+    text-shadow: none !important;
+    cursor:pointer !important;
+}
+.wlms_delete_popup_content 
+{
+    text-align:center;
+    padding-top:50px;
+    font-size:16px;
+    padding-bottom:50px;
+}
+.wlms_delete_popup_footer
+{
+    width:100%;
+    border-top: 1px solid #eeeeee;
+    text-align: center;
+    padding-top:10px;
+    display:block;
+}
+.wlms_btn_delete_popup
+{
+    display:inline-block;
+}
+.wlms_loader_delete_panel
+{
+    background: url("../../images/ajax-loader.gif") no-repeat;
+    width:16px;
+    height:11px;
+    display:none;
+}
+.wlms_overlay
+{
+    background: none repeat scroll 0 0 #000000;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index:99999;
+    display: none;
+}
+.wlms_list_btn a
+{
+    outline:none;
+}
+.wlms_borrow_content
+{
+  width:100%;
+  display:block;
+}
+.wlms_borrow_content_left
+{
+  width:20%;
+  display:inline-block;
+  vertical-align:top;
+  border:1px solid #1E8CBE;
+  margin-top:14px;
+  text-align:center;
+  font-size:13px;
+}
+.wlms_borrow_content_right
+{
+  width:79%;
+  display:inline-block;
+  vertical-align:top;
+}
+.wlms_select_book_top
+{
+  width:100%;
+  background:#1E8CBE;
+}
+.wlms_select_book_top p 
+{
+  font-size:14px;
+  padding:10px 0px 10px 10px;
+  font-weight:bold;
+  color:#eeeeee;
+}
+.wlms_select_member_table_top
+{
+  width:100%;
+  display:block;
+}
+.wlms_table_pager
+{
+  width:49.2%;
+  display:inline-block;
+  vertical-align:top;
+}
+.wlms_search
+{
+  width:50%;
+  display:inline-block;
+  vertical-align:top;
+  text-align:right;
+}
+.wlms_member_option select
+{
+ font-size:13px;    
+}
+.wlms_due_option input[type="text"]
+{
+    width:100px;
+}
+.wlms_member_option
+{
+    padding:15px 0px;
+}
+.wlms_due_option
+{
+    padding-bottom:15px;
+}
+.wlms_borrow_content_left input[type="submit"]
+{
+    margin-bottom:15px;
+}
+.wlms_deshboard_msg
+{
+    width:91%;
+    min-height:100px;
+    border:1px solid #CCCCCC;
+    background-color:#FFFFFF;
+}
+.wlms_deshboard_msg h3
+{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    color:#0074A2;
+    padding: 35px 0px 0px 15px;
+}
+.wlmsAdminDashboardBoxMainDiv
+{
+    width:45%;
+    margin:50px 10px 0px 0px;
+    float:left;
+}
+.wlmsAdminDashboardBoxHeader
+{
+    width:100%;
+    border:1px #CCCCCC solid;
+    background-color:#FFFFFF;
+    padding:8px 0px;
+}
+.wlms_boxTitle
+{
+    display:inline-block;
+    font-size: 14px;
+    color: #222;
+    font-weight:bold;
+    padding-left: 15px;
+}
+.wlms_dtnArrow
+{
+    display:inline-block;
+    float:right;
+    padding-right: 5px;
+}
+.wlms_boxContentDiv
+{
+    width:100%;
+    min-height:100px;
+    border-bottom:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    border-right:1px solid #CCCCCC;;
+    background-color:#FFFFFF;
+    position:relative;
+}
+.wlms_boxContentDiv h2
+{
+    position:absolute;
+    top:10px;
+    left:15px;
+    color:#0074A2;
+}
+.wlms_boxContentDiv h4
+{
+    position:absolute;
+    top:35px;
+    left:15px;
+    color:#0074A2;
+}
+.wlms_clear
+{
+    clear:both;
+}
+.wlms_reports_top
+{
+    width:100%;
+    display:block;
+}
+.wlms_reports_elements_main
+{
+    display:inline-block;
+    margin-right: 20px;
+}
+.pages-content-top ul li
+{
+  list-style: none;
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.pages-content-top ul li a
+{
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  color: #0073aa;
+  padding: 0px 0px 15px 0px;
+}
+.pages-content-top ul li .current
+{
+  color: #666666;
+  border-bottom:4px solid #666666;
+}
+.pages-content-top
+{
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  box-sizing: border-box;
+  color: #555;
+  margin: 12px 0 25px;
+  padding: 0 20px;
+}
+.wlms_box_content img
+{
+  height: 45px;
+  position: absolute;
+  top: 50px;
+}
+.wlms-logo-image
+{
+  position: relative;
+}
+.wlms_details_box_main input[type="text"], .wlms_details_box_main select, .wlms_details_box_main input[type="number"]
+{
+  width: 96%;
+  color: #666666 !important;
+}
+.member-roles-lists ul li
+{
+  list-style: none;
+  display: inline-block;
+  padding-right: 5px;
+}
+.wlms_details_box_main .submit-form-data
+{
+  text-align: right;
+}
+.wlms-message-extra-margin
+{
+  margin-top: 10px !important;
+}
+.wlmsTablesorter th.last-column
+{
+  text-align: center;
+}
+.wlmsTablesorter th
+{
+  text-align: left;
+}
+.wlms_books_table_pagination
+{
+  width: 100%;
+}
+
+.accepted-requested, .rejected-requested, .remove-requested
+{
+  display: inline-block;
+  margin-right: 5px;
+}
+.accepted-requested-disabled, .rejected-requested-disabled
+{
+  display: inline-block;
+  margin-right: 5px;
+}
+.wlms-reports-graph
+{
+  width: 100%;
+}
+#books_issued_chart
+{
+  width: 100%;
+  height: 250px;
+}
+
+.wlms-bg-1
+{
+  background-color: #00c0ef !important;
+  color: #fff !important;
+}
+.wlms-bg-2
+{
+  background-color: #3C8DBC !important;
+  color: #fff !important;
+}
+.wlms-bg-3
+{
+  background-color: #0073B7 !important;
+  color: #fff !important;
+}
+.wlms-bg-4
+{
+  background-color: #00A65A !important;
+  color: #fff !important;
+}
+.wlms-bg-5
+{
+  background-color: #F39C12 !important;
+  color: #fff !important;
+}
+
+.wlms-small-box 
+{
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-bottom: 20px;
+  position: relative;
+  width: 31%;
+  margin: 0px 5px;
+}
+
+.wlms-small-box > .inner 
+{
+  padding: 10px;
+}
+
+.wlms-small-box .icon 
+{
+  color: rgba(0, 0, 0, 0.15);
+  font-size: 90px;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  z-index: 0;
+}
+
+.wlms-small-box > .wlms-small-box-footer {
+  background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  padding: 3px 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  z-index: 10;
+}
+.wlms-small-box h3 
+{
+  font-size: 38px;
+  font-weight: bold;
+  margin: 15px 0 10px;
+  padding: 0;
+  white-space: nowrap;
+  color: #fff !important;
+}
+.wlms-small-box p 
+{
+  font-size: 15px;
+  margin: 20px 0 10px;
+}
+.wlms-bg-1 .ion-bag::before, .wlms-bg-2 .ion-bag::before, .wlms-bg-4 .ion-bag::before, .wlms-bg-5 .ion-bag::before {
+    content: url("../../images/book-icon.png");
+}
+.wlms-small-box .ion
+{
+  display: inline-block;
+  font-family: "Ionicons";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  text-transform: none;
+}
+.wlms-overall-report, .wlms-todays-report, .wlms-current-month-report
+{
+  width: 100%;
+  display: block;
+}
+.wlms-overall-report .wlms-small-box, .wlms-todays-report .wlms-small-box, .wlms-current-month-report .wlms-small-box
+{
+  display: inline-block;
+}
+.wlms-bg-3 .ion-bag::before {
+    content: url("../../images/member-icon.png");
+}
+.wlms-overall-report h2, .wlms-todays-report h2, .wlms-current-month-report h2
+{
+  text-align: center;
+  font-size: 22px;
+}
+.wlms-success-message
+{
+  padding: 10px;
+  border-left: 5px solid #00A65A;
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+.wlms-error-message
+{
+  padding: 10px;
+  border-left: 5px solid #DC3232;
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+table .wlms-action
+{
+    text-align: center;
+}
+a:active
+{
+  color:#FFFFFF !important;
+}
+    
